@@ -196,7 +196,7 @@ Interceptor에서 JWT유효성을 검증하는데 이 또한 Exception Handler�
 - AWS Certificate Manager(ACM)를 사용하여 구매한 도메인에 대한 SSL/TLS 인증서를 발급. 이 인증서는 HTTPS 통신을 위한 암호화 정보를 제공.
 - AWS의 Route 53 DNS 서비스를 사용하여 가비아에서 구매한 도메인을 AWS EC2 인스턴스의 IP 주소로 매핑함. (DNS 호스팅)
 - AWS 로드밸런서를 사용하여 ACM에서 발급받은 SSL/TLS 인증서를 적용하고, 인바운드 443(HTTPS) 요청을 EC2 인스턴스로 전달. 이렇게 하여 프론트엔드와의 HTTPS 통신을 가능하게 함.
-- **응답속도 2500~3500ms → 18~22ms로 개선**
+- **응답속도 2500 ~ 3500ms → 18 ~ 22ms로 개선**
 
 
 ---
